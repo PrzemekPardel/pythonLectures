@@ -1,0 +1,5 @@
+#całkowite
+
+#niecałkowite
+
+#logiczne

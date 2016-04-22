@@ -1,93 +1,93 @@
-#tworzenie
+#creation
 a = 'krowa'
 b = "koń"
 print(a)
 print(b)
-#nowa linia i znaki specjalne
+#new line and other special chars
 a = 'kro\nwa'
 b = "ko\nń"
 print(a)
 print(b)
-#sklejanie łańcuchów
+#concatenation
 c = 'a' + 'b'
 print(c)
 d = 'ooo' 'aaa'
 print(d)
-#powielanie łańcuchów
+#string duplication
 print(3 * 'abc')
 print(3 * 'abc''sss')
-#indeksowanie znaków
+#chars indexations
 slowo = 'starW'
 print(slowo[0])
 #print(slowo[20])
 print(slowo[-1])
-#wycinannie łańcuchów
+#sybstring
 print(slowo[0:3])
 print(slowo[-3:4])
-#zamiana znaku
+#chars replacement
 #slowo[0] = 'F'
 print(slowo)
 slowo = slowo[:2] + 'X' + slowo[2+1:]
 print(slowo)
-#dlugość łańcucha
+#string length
 print(len(slowo))
-#kapitaliki
+#capitalize
 print(slowo.capitalize());
-#uzupełnianie łańcucha
+#string completion
 print(slowo.center(15, 'O'))
-#zliczanie wystąpień
+#counting occurencies
 slowo = 2 * slowo
 print(slowo.count('tX'))
 print(slowo.count('tX',5))
 print(slowo.count('tX',0,4))
-#wyszukiwanie wystąpień
+#search occurencies
 print(slowo.find('tX'))
 print(slowo.find('tX',5))
 print(slowo.find('tX',0,4))
 print(slowo.find('tX',7,9))
-#wyszukanie wystapienia
+#search occurencies
 print('tX' in slowo)
 print('aX' in slowo)
-#alfanumeruczne
+#alpphanumeric
 print(slowo.isalnum())
 slowo = 's1a!'
 print(slowo.isalnum())
-#litery alfabetu
+#alpha
 print(slowo.isalpha())
 slowo = 'abc'
 print(slowo.isalpha())
-#liczby
+#digit
 print(slowo.isdigit())
 slowo = '0011'
 print(slowo.isdigit())
-#małe litery
+#small letter
 print(slowo.islower())
 slowo = 'asd'
 print(slowo.islower())
-#duże litery
+#big letter
 print(slowo.isupper())
 slowo = 'AASS'
 print(slowo.isupper())
-#zamiana na małe litery
+#replace to small
 slowo = 'AAss11'
 print(slowo.lower())
-#zamiana duże litery
+#replace to big
 print(slowo.upper())
-#zamiana wielkości liter
+#reverse size
 print(slowo.swapcase())
 #Title
 slowo = 'jak nie tak to mak'
 print(slowo.title())
-#Rozdzielanie łańcucha znaków
+#split string
 print(slowo.split())
 print(slowo.split(' '))
 print(slowo.split('k'))
 print(slowo.split('k', 2))
 print(slowo.split(maxsplit = 2))
-#rozdzielanie linii
+#split lines
 slowo = 'jak nie \n tak to \n mak'
 print(slowo.splitlines())
-#wycinanie znaków początku i końca
+#strip string
 slowo = '    jjjjjak nie nak to najjjjj    '
 print(slowo.strip())
 slowo = 'jjjjjak nie nak to najjjjj'

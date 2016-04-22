@@ -1,19 +1,19 @@
-#tworzenie
+#creation
 c = True
 lista = ["a", 'b', 1, c, 1.000054]
 print(lista)
 print(lista[0])
 print(lista[-2])
 print(lista[1:3])
-#Lączenie list
+#concatenation
 lista = lista + lista
 print(lista)
 lista = 2 * lista
 print(lista)
-#zamiana elementu listy
+#replace list elements
 lista[1] = False
 print(lista)
-#dodawanie elementu na końciu listy
+#add element to the end of list
 lista = [False]
 lista.append(True)
 print(lista)
@@ -23,11 +23,11 @@ print(lista)
 lista = ["a", 'b', 1, c, 1.000054]
 lista[:] = []
 print(lista)
-#liczba elementów na liście
+#count list elements
 print(len(lista))
 lista = ["a", 'b', 1, c, 1.000054]
 print(len(lista))
-#lista list
+#list of lists
 lista1 = ["a", 'b', 1, c, 1.000054]
 lista2 = [True, False]
 lista3 = [lista1, lista2]

@@ -1,4 +1,4 @@
-#jeżeli
+#if
 a = 3
 if a > 2:
     #op1
@@ -27,7 +27,7 @@ else:
     d = 11
     print("DD")
 
-#dopóki
+#while
 a = 0
 while a < 3:
     a = a + 1
@@ -40,7 +40,7 @@ while a < 3:
 else:
     print("else")
 
-#dla (for)
+#for
 for a in (range(1,11)):
     print(a)
 

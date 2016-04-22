@@ -1,4 +1,4 @@
-# komentarz
+# comments
 'Komentarz'
 '''Komentarz'''
 """iyiyuiyuii"""

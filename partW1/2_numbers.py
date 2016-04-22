@@ -1,45 +1,45 @@
-#całkowite
+#integers
 a = 1
 print(a)
-#niecałkowite
+#floats
 a = 1.0001
 print(a)
-#logiczne
+#logic
 a = True
 print(a)
-#suma
+#sum
 print(2 + 2)
 print(3 + a + 1)
-#Różnica
+#diff
 print(2 - 2)
 print(3 - True - 1)
 print(- -1 - -2)
 print(- -1 - - - 2)
-#Mnożenie
+#multiplication
 print(2 * 2)
 print(1 * 2 * 3)
 print(3 * 3.6 * True)
-#Dzielenie
+#division
 print(2 / 2)
 print(3 / 2)
 print(3.02 / 2)
-#Dzielenie całkowite
+#integer division
 print(2 // 2)
 print(3 // 2)
 print(3.02 // 2)
-#Reszta z dzielenia
+#remainder
 print(5 % 3)
 print(6 % 3)
-#Potegowanie
+#exponentiation
 print(True ** 7)
 print(2 ** 3)
-#Zaokrąglanie liczb
+#rounding
 print(round(7.657,-2))
 print(round(7.657,-1))
 print(round(7.657,0))
 print(round(7.657,1))
 print(round(7.657,2))
 print(round(7.657,3))
-#Grupowanie
+#grouping
 print(2 * 2 + 3)
 print(2 * (2 + 3))

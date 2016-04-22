@@ -50,3 +50,15 @@ print(ret)
 #clear
 ret.sort()
 print(ret)
+
+x = ret
+x.pop()
+print("X:", x)
+print("ret:", ret)
+
+#copy
+x = ret.copy()
+print("X:", x)
+x.pop()
+print("X:", x)
+print("ret:", ret)
